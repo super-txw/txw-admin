@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "com.itmk.jwt.JwtUtils",
+      "sourceType": "com.itmk.jwt.JwtUtils"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.itmk.config.datasource.DruidConfig",
+      "sourceMethod": "dataSource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.Long",
+      "sourceType": "com.itmk.jwt.JwtUtils"
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.itmk.jwt.JwtUtils"
+    }
+  ],
+  "hints": []
+}
